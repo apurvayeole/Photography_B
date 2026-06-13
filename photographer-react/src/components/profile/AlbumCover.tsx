@@ -23,9 +23,9 @@ export function AlbumCover({ album }: AlbumCoverProps) {
           transition={{ duration: 0.3, ease: 'easeOut' }}
         />
       </div>
-      <p className="mt-1 text-xs text-zinc-500 dark:text-zinc-400 truncate px-0.5">
+      {/* <p className="mt-1 text-xs text-zinc-500 dark:text-zinc-400 truncate px-0.5">
         {album.title}
-      </p>
+      </p> */}
     </button>
   )
 }

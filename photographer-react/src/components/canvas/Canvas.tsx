@@ -44,7 +44,7 @@ export function Canvas({ profile }: CanvasProps) {
       {/* LAYER 1 — album overlay */}
       <AnimatePresence>
         {isDimmed && activeAlbum && (
-          <AlbumOverlay key="album-overlay" album={activeAlbum} />
+          <AlbumOverlay key="album-overlay" album={activeAlbum} albums={profile.albums} />
         )}
       </AnimatePresence>
 
