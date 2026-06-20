@@ -19,7 +19,7 @@ app.use('/api/profile', profileRoutes)
 app.use('/api/albums',  albumRoutes)
 app.use('/api/photos',  photoRoutes)
 
-app.get('/health', (_req, res) => res.json({ status: 'ok' }))
+app.get('/health', (_req, res) => res.json({ status: 'status ok' }))
 
 app.listen(PORT, () => {
   console.log(`API running → http://localhost:${PORT}`)
