@@ -3,7 +3,6 @@ import { Providers } from '@/components/canvas/Providers'
 import Home          from './pages/home'
 import AdminLogin    from './pages/admin/Login'
 import Dashboard     from './pages/admin/Dashboard'
-import ProtectedRoute from './components/admin/ProtectedRoute'
 
 export default function App() {
   return (
