@@ -24,6 +24,3 @@ app.get('/health', (_req, res) => res.json({ status: 'ok' }))
 app.listen(PORT, () => {
   console.log(`API running → http://localhost:${PORT}`)
 })
-
-logger.Log("Swapnil Nakade")
-logger.Log("Chaitanya Yeole")
